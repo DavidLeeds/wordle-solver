@@ -120,7 +120,7 @@ int main(int argc, const char **argv)
                     cout << "  " << w << '\n';
                 }
             } else if (cmd == "info") {
-                cout << "Dictionary size: " << solver.list().size() << '\n';
+                cout << "Dictionary size: " << dict.size() << '\n';
             } else {
                 cerr << "Unknown command: " << cmd << '\n';
             }
